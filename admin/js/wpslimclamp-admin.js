@@ -38,6 +38,7 @@
     var clampRowsField = $.parseHTML('<input type="text" name="wpslimclamp_selector[rows]" id="wpslimclamp_rows" class="clamp-rows">');
     var deleteElement = $.parseHTML('<span class="dashicons dashicons-no delete-clamp js-delete-row"></span>');
 
+    $initRow.append( '<th class="clamp-value-label"><label for="wpslimclamp_rows">Rows limit:</label></th>' );
     $initRow.append( '<td class="clamp-value"></td>' );
     $initRow.append( '<td class="delete-row"></td>' );
 
